@@ -26,12 +26,6 @@
     font-weight: bold;
     font-size: 36px;
   }
-  // &__fongki {
-  //   // font-size: 24px;
-  //   // align-content: center;
-  //   // align-items: center;
-  //   // align-self: center;
-  // }
   &__menuOptions {
     width: 95%;
     display: inline-flex;
