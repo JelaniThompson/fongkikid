@@ -33,7 +33,7 @@ export default {
   }
   &__fongkikid-homepage {
     justify-content: flex-start;
-    border: 5px solid black;
+    border-right: 5px solid black;
   }
   &__paragraph {
     margin-left: 2.5%;

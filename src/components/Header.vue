@@ -38,10 +38,12 @@
     justify-content: flex-end;
   }
   &__tab {
-    padding: 12px 16px;
+    // padding: 12px 16px;
+    padding: 40px 70px;
     justify-content: center;
     position: relative;
-    border: 2px solid black;
+    font-weight: bold;
+    border-right: 5px solid black;
   }
   &__projects {
     border-left: 5px solid black;
