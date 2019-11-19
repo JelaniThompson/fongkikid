@@ -28,6 +28,8 @@ export default {
 
 <style lang="scss">
 .homepage {
+  overflow-y: hidden;
+
   &__main-section {
     display: flex;
   }

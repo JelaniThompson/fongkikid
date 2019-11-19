@@ -1,6 +1,6 @@
 import Vue from "vue/dist/vue.js";
 import VueRouter from "vue-router";
-
+// import VueFullPage from 'vue-fullpage.js';
 import App from "./App.vue";
 
 // Route components
@@ -8,7 +8,7 @@ import App from "./App.vue";
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
-
+// Vue.use(VueFullPage);
 // Components (with lazy loaded routes and not templates)
 const Homepage = () => import("./components/Homepage.vue");
 const Outdated = () => import("./sections/Outdated.vue");

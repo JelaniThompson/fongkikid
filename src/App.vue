@@ -28,7 +28,7 @@ export default {
 html,
 body {
   margin: 0;
-  overflow-y: hidden;
+  overflow-x: hidden;
   // padding: 0;
 }
 </style>
