@@ -28,7 +28,14 @@
         and identity.
       </div>
     </div>
-    <div class="outdated__digital-diaspora outdated__section"></div>
+    <div class="outdated__video outdated__section"></div>
+    <!-- Digital Diaspora -->
+    <div class="outdated__digital-diaspora outdated__section">
+      <img
+        class="outdated__digital-image"
+        src="../assets/outdated/enna_outdated_3.png"
+      />
+    </div>
     <div class="outdated__research outdated__section"></div>
     <div class="outdated__language outdated__section"></div>
     <div class="outdated__exhibition outdated__section"></div>
@@ -48,6 +55,14 @@ export default {
     height: 100vh;
     width: 100%;
     border: 5px solid black;
+    // overflow: hidden;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
   }
   &__outdatedBox {
     font-size: 36px;
@@ -93,27 +108,42 @@ export default {
     z-index: 99;
     font-weight: bold;
   }
-  &__infoBoxTwo {
-    border: 2.5px solid black;
-    z-index: 99;
-    position: relative;
-    text-align: center;
-    font-weight: bold;
-    padding: 2%;
-    width: 30%;
-    margin-top: 41%;
-    background-color: #fff;
-    margin-left: 55%;
-  }
   &__interaccess-image {
     position: absolute;
     border: 5px solid black;
     width: 31%;
-    object-fit: stretch;
-    // max-height: 200px;
-    // border-left: transparent;
-    margin-top: 18.7%;
-    margin-left: 13%;
+    object-fit: contain;
+    margin-top: 3%;
+    justify-content: flex-end;
+    align-self: center;
+    margin-left: 62%;
+  }
+  &__infoBoxTwo {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    border: 2.5px solid black;
+    z-index: 99;
+    position: relative;
+    justify-content: flex-end;
+    text-align: center;
+    font-weight: bold;
+    padding: 2%;
+    width: 40%;
+    right: 0;
+    height: 10%;
+    bottom: 0;
+    background-color: #fff;
+    margin-left: 55%;
+  }
+
+  &__digital-image {
+    width: 50%;
+    height: 100vh;
+    justify-content: flex-start;
+    border: 5px solid black;
+    object-fit: cover;
+    margin-top: -5px;
   }
 }
 </style>
