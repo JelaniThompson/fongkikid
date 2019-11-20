@@ -51,6 +51,11 @@
         through cultural artefacts and through a shared imagination.” (Cohen,
         1997: 26).
       </div>
+      <div class="outdated__digitalInfoBoxThree outdated__infoBox">
+        Me hugging my (computer) parents, a rare interaction situated in the
+        living room, a room we rarely occupied with conversation but instead
+        silently shared meals.
+      </div>
     </div>
     <div class="outdated__research outdated__section"></div>
     <div class="outdated__language outdated__section"></div>
@@ -195,7 +200,7 @@ export default {
   }
 
   &__digitalInfoBox {
-    margin-top: 7.5%;
+    margin-top: 7.3%;
     margin-left: 61%;
     align-self: center;
   }
@@ -204,6 +209,15 @@ export default {
     font-size: 16px;
     align-self: flex-end;
     margin-left: 61%;
+  }
+
+  &__digitalInfoBoxThree {
+    align-self: flex-end;
+    width: 18%;
+    font-size: 16px;
+    margin-left: 0;
+    left: 0;
+    justify-self: flex-start;
   }
 }
 </style>
