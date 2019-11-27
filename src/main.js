@@ -12,11 +12,13 @@ Vue.use(VueRouter);
 // Components (with lazy loaded routes and not templates)
 const Homepage = () => import("./components/Homepage.vue");
 const Outdated = () => import("./sections/Outdated.vue");
+const ArchIsMyEx = () => import("./sections/ArchIsMyEx.vue");
 
 // Routes
 const routes = [
   { path: "/", component: Homepage },
-  { path: "/outdated", component: Outdated }
+  { path: "/outdated", component: Outdated },
+  { path: "/arch", component: ArchIsMyEx }
 ];
 
 // Router

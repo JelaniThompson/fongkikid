@@ -1,65 +1,69 @@
 <template>
   <div class="outdated">
-    <div class="outdated__outdated outdated__section">
-      <div class="outdated__outdatedBox outdated__titleBox">
-        Outdated(오래된)
-      </div>
+    <div class="outdated__outdated outdated__section outdated__image">
       <img
-        class="outdated__ennaImageOne"
-        src="../assets/outdated/enna_pageOne.png"
+        src="../assets/outdated/Outdated-18.png"
+        alt="outdated"
+        class="outdated__outdatedImage"
       />
-      <div class="outdated__infoBox">
-        Outdated(오래된) is a time-based media installation that uses digital
-        animation & computer models to investigate the
-        <span class="outdated__highlight">difficulties of communication</span>
-        between immigrant parents and their children by comparing them to
-        computer hardware.
-      </div>
-      <img
-        class="outdated__interaccess-image"
-        src="../assets/outdated/1811-Interaccess-Preservation-Permanence-55.jpg"
-      />
-      <div class="outdated__infoBoxTwo">
-        My parents are expired computer models, SK-1960s, byproducts of the
-        Korean War, the last of their kind. I am the upgraded version of the
-        latest model CAN-1995.<br />
-        This piece is my attempt to use technology to decrypt my family dynamic
-        and identity.
-      </div>
     </div>
     <!-- Outdated Video Section -->
-    <div class="outdated__video outdated__section"></div>
+    <div class="outdated__video outdated__section">
+      <div class="outdated__vidContainer">
+        <div class="outdated__borderTwo">
+          <video
+            src="../assets/outdated/RENDER_7.mp4"
+            controls
+            class="outdated__videoPlayer"
+            frameborder="0"
+            style="z-index: 99; outline: none;"
+          ></video>
+        </div>
+        <p class="outdated__infoBox outdated__videoParagraph">
+          When translating Korean to English, there are nuances lost in between
+          the languages. The problem lies beyond our hardware. Our ports might
+          be incongruent and our software slightly incompatible but we are made
+          from the same parts. So why do I fail to communicate with them?
+        </p>
+      </div>
+    </div>
 
     <!-- Digital Diaspora -->
     <div class="outdated__digital-diaspora outdated__section">
       <img
-        class="outdated__digital-image"
-        src="../assets/outdated/enna_outdated_3.png"
+        src="../assets/outdated/outdated-digitaldiaspora.png"
+        alt="digital-diaspora"
+        class="outdated__outdatedImage"
       />
-      <img class="outdated__whoAreYou" src="../assets/outdated/whoAreYou.jpg" />
-      <div class="outdated__digitalDiasporaTitle outdated__titleBox">
-        Digital Diaspora
-      </div>
-      <div class="outdated__digitalInfoBox outdated__infoBox">
-        This work redefines the term “diaspora,” a phrase used to describe
-        people who are living somewhere else other than their birthplace.
-      </div>
-      <div class="outdated__digitalInfoBoxTwo outdated__infoBox">
-        Moreover, transnational bonds no longer have to be cemented by migration
-        or by exclusive territorial claims. In the age of cyberspace, a diaspora
-        can, to some degree, be held together or re-created through the mind,
-        through cultural artefacts and through a shared imagination.” (Cohen,
-        1997: 26).
-      </div>
-      <div class="outdated__digitalInfoBoxThree outdated__infoBox">
-        Me hugging my (computer) parents, a rare interaction situated in the
-        living room, a room we rarely occupied with conversation but instead
-        silently shared meals.
-      </div>
     </div>
-    <div class="outdated__research outdated__section"></div>
-    <div class="outdated__language outdated__section"></div>
-    <div class="outdated__exhibition outdated__section"></div>
+
+    <!-- Research -->
+    <div class="outdated__research outdated__section">
+      <img
+        src="../assets/outdated/outdated-research.png"
+        alt="research"
+        id="outdated__researchImage"
+        class="outdated__outdatedImage"
+      />
+    </div>
+    <!-- Language -->
+    <div class="outdated__language outdated__section">
+      <img
+        src="../assets/outdated/outdated-language.png"
+        alt="research"
+        id="outdated__researchImage"
+        class="outdated__outdatedImage"
+      />
+    </div>
+    <!-- Exhibition -->
+    <div class="outdated__exhibition outdated__section">
+      <img
+        src="../assets/outdated/outdated-exhibition.png"
+        alt="research"
+        id="outdated__researchImage"
+        class="outdated__outdatedImage"
+      />
+    </div>
   </div>
 </template>
 
@@ -75,15 +79,31 @@ export default {
   &__section {
     height: 100vh;
     width: 100%;
-    border: 5px solid black;
+    // pointer-events: none;
+    // border: 5px solid black;
     // overflow: hidden;
     display: flex;
     margin: 0;
-    padding: 0;
+    // padding: 0;
+    padding: 5% 0 0 0;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
+    justify-content: center;
+  }
+  &__outdatedImage {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+  }
+  &__vidContainer {
+    align-self: center;
+    justify-content: center;
+    // height: 100vh;
+    z-index: 98;
+    width: 100vw;
   }
   &__titleBox {
     background-color: #7efc8d;
@@ -209,15 +229,107 @@ export default {
     font-size: 16px;
     align-self: flex-end;
     margin-left: 61%;
+    z-index: -1;
   }
 
   &__digitalInfoBoxThree {
     align-self: flex-end;
     width: 18%;
     font-size: 16px;
-    margin-left: 0;
+    margin-left: 5px;
     left: 0;
     justify-self: flex-start;
+  }
+
+  &__researchInfoBox {
+    border: none;
+    align-self: flex-end;
+    right: 0;
+    z-index: -1;
+    font-size: 16px;
+    width: 25%;
+    margin-bottom: 1.5%;
+    text-align: left;
+    // bottom: 0;
+  }
+  &__researchInfoBoxTwo {
+    border: none;
+    // right: 0;
+    z-index: -1;
+    font-size: 16px;
+    width: 25%;
+    text-align: left;
+    margin-left: 50%;
+    justify-self: flex-end;
+  }
+
+  &__researchInfoBoxThree {
+    border: none;
+    // right: 0;
+    z-index: -1;
+    font-size: 16px;
+    width: 25%;
+    text-align: left;
+    margin-left: 17%;
+    margin-top: 37%;
+  }
+
+  /* Video section */
+  &__video {
+    justify-content: center;
+    position: relative;
+  }
+
+  &__borderTwo {
+    background-color: #7efc8d;
+    width: 55%;
+    height: 90%;
+    z-index: -1;
+    margin: 0 auto;
+    position: relative;
+    padding: 1%;
+    align-self: center;
+    border: 5px solid black;
+  }
+  &__videoPlayer {
+    margin: 0 auto;
+    border: 10px black;
+    display: flex;
+    object-fit: contain;
+    width: 99.5%;
+    z-index: 99;
+    height: 95%;
+    align-self: center;
+    display: block;
+  }
+  &__videoParagraph {
+    border: none;
+    position: relative;
+    align-self: flex-end;
+    margin-bottom: -5%;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 40%;
+    font-weight: bold;
+    text-align: center;
+    z-index: -2;
+  }
+  &__exhibitionImage {
+    object-fit: cover;
+  }
+
+  /* Research */
+  &__researchImage {
+    object-fit: contain !important;
+  }
+
+  // Add screen breakpoints (1400 and up)
+  @media (max-width: 1920px) {
+    .outdated {
+      &__outdatedImage {
+        object-fit: contain;
+      }
+    }
   }
 }
 </style>
