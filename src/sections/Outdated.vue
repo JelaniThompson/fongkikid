@@ -11,13 +11,14 @@
     <div class="outdated__video outdated__section">
       <div class="outdated__vidContainer">
         <div class="outdated__borderTwo">
-          <video
-            src="../assets/outdated/RENDER_7.mp4"
-            controls
-            class="outdated__videoPlayer"
+          <iframe
+            src="https://player.vimeo.com/video/299457576"
+            width="640"
+            height="360"
             frameborder="0"
-            style="z-index: 99; outline: none;"
-          ></video>
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
         </div>
         <p class="outdated__infoBox outdated__videoParagraph">
           When translating Korean to English, there are nuances lost in between
