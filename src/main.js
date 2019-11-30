@@ -10,20 +10,21 @@ const Homepage = () => import("./components/Homepage.vue");
 const Outdated = () => import("./sections/Outdated.vue");
 const ArchIsMyEx = () => import("./sections/ArchIsMyEx.vue");
 const Void = () => import("./sections/Void.vue");
+const Hiding = () => import("./sections/Hiding.vue");
 
 // Routes
 const routes = [
   { path: "/", component: Homepage },
   { path: "/outdated", component: Outdated },
   { path: "/arch", component: ArchIsMyEx },
-  { path: "/void", component: Void }
+  { path: "/void", component: Void },
+  { path: "/hiding", component: Hiding }
 ];
 
 // Router
 const router = new VueRouter({
   mode: "history",
   routes
-  // base: "/src/"
 });
 
 new Vue({
