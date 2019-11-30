@@ -13,6 +13,18 @@
         Korean roots.
       </p>
     </div>
+    <div class="homepage__vidContainer">
+      <div class="homepage__borderTwo">
+        <iframe
+          src="https://player.vimeo.com/video/376470478"
+          width="640"
+          height="360"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -32,6 +44,7 @@ export default {
 
   &__main-section {
     display: flex;
+    border-bottom: 5px solid black;
   }
   &__fongkikid-homepage {
     justify-content: flex-start;
@@ -43,6 +56,21 @@ export default {
     max-width: 25%;
     text-align: left;
     font-weight: bold;
+    font-family: "Helvetica Neue";
+    font-size: 24px;
   }
+  &__vidContainer {
+    // align-self: center;
+    justify-content: center;
+    // height: 100vh;
+    z-index: 98;
+    width: 100vw;
+    margin-top: 10%;
+    padding-bottom: 10%;
+  }
+  // &__borderTwo {
+  //   margin-top: 10%;
+  //   padding-bottom: 10%;
+  // }
 }
 </style>

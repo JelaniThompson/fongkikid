@@ -19,13 +19,18 @@
                 width: '100%'
               }"
             >
-              <a class="header__dropdownItem">{{ item }} </a>
+              <a
+                class="header__dropdownItem"
+                :href="routes[index]"
+                target="__blank"
+                >{{ item }}
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div class="header__cv header__tab">CV</div>
-      <div class="header__contact header__tab">CONTACT</div>
+      <!-- <div class="header__contact header__tab">CONTACT</div> -->
     </div>
   </div>
 </template>
@@ -42,7 +47,8 @@ export default {
         "FILL THE VOID 2019",
         "In Hiding (숨다)2019"
       ],
-      colours: ["#7efc8d", "#81ecf2", "#ff64f0", "#6d66ff"]
+      colours: ["#7efc8d", "#81ecf2", "#ff64f0", "#6d66ff"],
+      routes: ["/outdated", "/arch", "/void", "/hiding"]
     };
   }
 };
@@ -95,6 +101,8 @@ export default {
   }
   &__dropdownItem {
     padding: 5% 0;
+    text-decoration: none;
+    color: black;
     // border-top: 5px solid black;
   }
 }
