@@ -4,14 +4,49 @@
       ENNA KIM <span class="header__fongki">[fongkikid]</span>
     </div>
     <div class="header__menuOptions">
-      <div class="header__projects header__tab">PROJECTS</div>
+      <div class="header__projects header__tab">
+        PROJECTS
+        <!-- Dropdown check -->
+        <div class="header__dropdown">
+          <div class="header__projectsDropdownItems">
+            <div
+              v-for="(item, index) in menuItems"
+              :key="item.id"
+              class="header__dropdownBox"
+              :style="{
+                backgroundColor: colours[index],
+                display: 'inline-flex',
+                width: '100%'
+              }"
+            >
+              <a class="header__dropdownItem">{{ item }} </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="header__cv header__tab">CV</div>
       <div class="header__contact header__tab">CONTACT</div>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  name: "Header",
+  components: {},
+  data: () => {
+    return {
+      menuItems: [
+        "Outdated(오래된)",
+        "ARCHITECTURE IS MY EX-BOYFRIEND 2018",
+        "FILL THE VOID 2019",
+        "In Hiding (숨다)2019"
+      ],
+      colours: ["#7efc8d", "#81ecf2", "#ff64f0", "#6d66ff"]
+    };
+  }
+};
+</script>
 
 <style lang="scss">
 .header {
@@ -41,6 +76,26 @@
   }
   &__projects {
     border-left: 5px solid black;
+    display: flex;
+  }
+
+  &__dropdown {
+    position: absolute;
+    border: 5px solid black;
+    width: 100%;
+    margin: -21% auto 0 auto;
+    opacity: 0;
+  }
+  &__dropdown:hover {
+    opacity: 100;
+    // margin: 28% auto 0 auto;
+  }
+  &__dropdownBox {
+    justify-content: center;
+  }
+  &__dropdownItem {
+    padding: 5% 0;
+    // border-top: 5px solid black;
   }
 }
 </style>
