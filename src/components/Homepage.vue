@@ -17,8 +17,8 @@
       <div class="homepage__borderTwo">
         <iframe
           src="https://player.vimeo.com/video/376470478"
-          width="640"
-          height="360"
+          width="1240"
+          height="960"
           frameborder="0"
           allow="autoplay; fullscreen"
           allowfullscreen
@@ -44,6 +44,7 @@ export default {
 
   &__main-section {
     display: flex;
+    margin-top: 8%;
     border-bottom: 5px solid black;
   }
   &__fongkikid-homepage {
@@ -52,8 +53,8 @@ export default {
   }
   &__paragraph {
     margin-left: 2.5%;
-    margin-top: 15.5%;
-    max-width: 25%;
+    margin-top: 12.5%;
+    max-width: 30%;
     text-align: left;
     font-weight: bold;
     font-family: "Helvetica Neue";
@@ -65,8 +66,8 @@ export default {
     // height: 100vh;
     z-index: 98;
     width: 100vw;
-    margin-top: 10%;
-    padding-bottom: 10%;
+    // margin-top: 5%;
+    padding-bottom: 5%;
   }
   // &__borderTwo {
   //   margin-top: 10%;

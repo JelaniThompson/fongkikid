@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header__name">
-      ENNA KIM <span class="header__fongki">[fongkikid]</span>
+      <a href="/"> ENNA KIM <span class="header__fongki">[fongkikid]</span> </a>
     </div>
     <div class="header__menuOptions">
       <div class="header__projects header__tab">
@@ -29,7 +29,14 @@
           </div>
         </div>
       </div>
-      <div class="header__cv header__tab">CV</div>
+      <a
+        href="https://drive.google.com/file/d/1QW_DE9fJOWQsW7wr7JlzdtqD_F4wRs1a/view"
+        target="__blank"
+      >
+        <div class="header__cv header__tab" target="__blank">
+          CV
+        </div>
+      </a>
       <!-- <div class="header__contact header__tab">CONTACT</div> -->
     </div>
   </div>
@@ -55,10 +62,17 @@ export default {
 </script>
 
 <style lang="scss">
+a {
+  text-decoration: none;
+  color: black;
+}
 .header {
   display: flex;
   align-items: center;
   top: 0;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
   width: 100%;
   border: 5px solid black;
   &__name {
