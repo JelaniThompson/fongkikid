@@ -90,8 +90,6 @@ export default {
   &__section {
     height: 100vh;
     width: 100%;
-    // border: 5px solid black;
-    // overflow: hidden;
     display: flex;
     margin: 0;
     padding: 3% 0 0 0;
@@ -118,7 +116,6 @@ export default {
   &__vidContainer {
     align-self: center;
     justify-content: center;
-    // height: 100vh;
     z-index: 98;
     width: 100vw;
   }

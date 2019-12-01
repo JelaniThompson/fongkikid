@@ -107,6 +107,9 @@ a {
     margin: -21% auto 0 auto;
     opacity: 0;
   }
+  &__dropdown::before {
+    margin-top: 20%;
+  }
   &__dropdown:hover {
     opacity: 100;
     // margin: 28% auto 0 auto;
