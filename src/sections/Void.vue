@@ -13,8 +13,8 @@
         <div class="void__borderTwo">
           <iframe
             src="https://player.vimeo.com/video/286925606"
-            width="640"
-            height="360"
+            width="840"
+            height="560"
             frameborder="0"
             allow="autoplay; fullscreen"
             allowfullscreen
@@ -124,8 +124,8 @@ export default {
   }
   &__borderTwo {
     background-color: #ff64f0;
-    width: 58%;
-    height: 100%;
+    width: 67%;
+    height: 90%;
     z-index: -1;
     margin: 0 auto;
     position: relative;
