@@ -11,6 +11,7 @@ const Outdated = () => import("./sections/Outdated.vue");
 const ArchIsMyEx = () => import("./sections/ArchIsMyEx.vue");
 const Void = () => import("./sections/Void.vue");
 const Hiding = () => import("./sections/Hiding.vue");
+const Speaking = () => import("./sections/Speaking.vue");
 
 // Routes
 const routes = [
@@ -18,7 +19,8 @@ const routes = [
   { path: "/outdated", component: Outdated },
   { path: "/arch", component: ArchIsMyEx },
   { path: "/void", component: Void },
-  { path: "/hiding", component: Hiding }
+  { path: "/hiding", component: Hiding },
+  { path: "/speaking", component: Speaking }
 ];
 
 // Router

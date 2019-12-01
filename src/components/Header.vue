@@ -37,6 +37,9 @@
           CV
         </div>
       </a>
+      <div class="header__cv header__tab" target="__blank">
+        SPEAKING
+      </div>
       <!-- <div class="header__contact header__tab">CONTACT</div> -->
     </div>
   </div>
@@ -50,9 +53,9 @@ export default {
     return {
       menuItems: [
         "Outdated(오래된)",
-        "ARCHITECTURE IS MY EX-BOYFRIEND 2018",
-        "FILL THE VOID 2019",
-        "In Hiding (숨다)2019"
+        "ARCHITECTURE IS MY EX-BOYFRIEND",
+        "FILL THE VOID",
+        "In Hiding (숨다)"
       ],
       colours: ["#7efc8d", "#81ecf2", "#ff64f0", "#6d66ff"],
       routes: ["/outdated", "/arch", "/void", "/hiding"]
