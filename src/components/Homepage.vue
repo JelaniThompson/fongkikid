@@ -41,7 +41,7 @@ export default {
 <style lang="scss">
 .homepage {
   overflow-y: hidden;
-
+  font-family: "Helvetica Neue";
   &__main-section {
     display: flex;
     margin-top: 8%;

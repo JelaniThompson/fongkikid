@@ -76,14 +76,6 @@ export default {
     bottom: 0;
     right: 0;
     justify-content: center;
-    &:nth-child(1) {
-      margin-top: 15%;
-    }
-    &:nth-child(2) {
-      padding: 0% 0 0 0;
-      // margin-top: -7%;
-      margin-bottom: 2%;
-    }
   }
   // &__arch {
   //   margin-top: 12%;
