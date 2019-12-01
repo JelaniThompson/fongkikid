@@ -1,5 +1,6 @@
 <template>
   <div class="outdated">
+    <Header />
     <div class="outdated__outdated outdated__section outdated__image">
       <img
         src="../assets/outdated/Outdated-18.png"
@@ -69,9 +70,13 @@
 </template>
 
 <script>
+import Header from "../components/Header.vue";
+
 export default {
   name: "Outdated",
-  components: {}
+  components: {
+    Header
+  }
 };
 </script>
 
@@ -92,6 +97,9 @@ export default {
     bottom: 0;
     right: 0;
     justify-content: center;
+  }
+  &__outdated {
+    margin-top: 8%;
   }
   &__outdatedImage {
     object-fit: cover;

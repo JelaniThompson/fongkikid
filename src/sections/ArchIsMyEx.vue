@@ -1,5 +1,6 @@
 <template>
   <div class="arch">
+    <Header />
     <div class="arch__section arch__arch">
       <img
         src="../assets/arch/new_dimensions/arch.png"
@@ -50,9 +51,13 @@
 </template>
 
 <script>
+import Header from "../components/Header.vue";
+
 export default {
   name: "ArchIsMyEx",
-  components: {}
+  components: {
+    Header
+  }
 };
 </script>
 
@@ -71,17 +76,24 @@ export default {
     bottom: 0;
     right: 0;
     justify-content: center;
+    &:nth-child(1) {
+      margin-top: 15%;
+    }
     &:nth-child(2) {
       padding: 0% 0 0 0;
-      margin-top: -7%;
+      // margin-top: -7%;
       margin-bottom: 2%;
     }
   }
+  // &__arch {
+  //   margin-top: 12%;
+  // }
   &__archImage {
     object-fit: cover;
     max-width: 100%;
     pointer-events: none;
     height: auto;
+    margin-top: 12%;
     pointer-events: none;
   }
   &__video {
