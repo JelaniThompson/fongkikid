@@ -21,10 +21,6 @@
           ></iframe>
         </div>
       </div>
-      <img
-        src="../assets/arch/new_dimensions/stages.png"
-        class="arch__stages"
-      />
     </div>
     <div class="arch__section arch__archPhotogrammetry">
       <img
@@ -43,6 +39,27 @@
     <div class="arch__section arch__archPhotogrammetry">
       <img
         src="../assets/arch/new_dimensions/arch_4.png"
+        alt="Architecture is my Ex-BF"
+        class="arch__archImage"
+      />
+    </div>
+    <div class="arch__section arch__archPhotogrammetry">
+      <img
+        src="../assets/arch/new_dimensions/arch_5.png"
+        alt="Architecture is my Ex-BF"
+        class="arch__archImage"
+      />
+    </div>
+    <div class="arch__section arch__archPhotogrammetry">
+      <img
+        src="../assets/arch/new_dimensions/arch_6.png"
+        alt="Architecture is my Ex-BF"
+        class="arch__archImage"
+      />
+    </div>
+    <div class="arch__section arch__archPhotogrammetry">
+      <img
+        src="../assets/arch/new_dimensions/arch_7.png"
         alt="Architecture is my Ex-BF"
         class="arch__archImage"
       />

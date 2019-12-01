@@ -3,42 +3,63 @@
     <Header />
     <div class="speaking__section speaking__speaking">
       <img
-        src="../assets/speaking/new_dimensions/fillthespeaking.png"
+        src="../assets/speaking/speaking.png"
         alt="speaking"
         class="speaking__speakingImage"
       />
     </div>
-    <div class="speaking__section speaking__video">
-      <div class="speaking__vidContainer">
-        <div class="speaking__borderTwo">
-          <iframe
-            src="https://player.vimeo.com/video/286925606"
-            width="640"
-            height="360"
-            frameborder="0"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="speaking__section speaking__3">
+    <div class="speaking__section speaking__speaking">
       <img
-        src="../assets/speaking/new_dimensions/fillthespeaking_3.png"
+        src="../assets/speaking/speaking_1.png"
         alt="speaking"
         class="speaking__speakingImage"
       />
     </div>
-    <div class="speaking__section speaking__4">
+    <div class="speaking__section speaking__speaking">
       <img
-        src="../assets/speaking/new_dimensions/fillthespeaking_4.png"
+        src="../assets/speaking/speaking_2.png"
         alt="speaking"
         class="speaking__speakingImage"
       />
     </div>
-    <div class="speaking__section speaking__5">
+    <div class="speaking__section speaking__speaking">
       <img
-        src="../assets/speaking/new_dimensions/fillthespeaking_5.png"
+        src="../assets/speaking/speaking_3.png"
+        alt="speaking"
+        class="speaking__speakingImage"
+      />
+    </div>
+    <div class="speaking__section speaking__speaking">
+      <img
+        src="../assets/speaking/speaking_4.png"
+        alt="speaking"
+        class="speaking__speakingImage"
+      />
+    </div>
+    <div class="speaking__section speaking__speaking">
+      <img
+        src="../assets/speaking/speaking_5.png"
+        alt="speaking"
+        class="speaking__speakingImage"
+      />
+    </div>
+    <div class="speaking__section speaking__speaking">
+      <img
+        src="../assets/speaking/speaking_6.png"
+        alt="speaking"
+        class="speaking__speakingImage"
+      />
+    </div>
+    <div class="speaking__section speaking__speaking">
+      <img
+        src="../assets/speaking/speaking_7.png"
+        alt="speaking"
+        class="speaking__speakingImage"
+      />
+    </div>
+    <div class="speaking__section speaking__speaking">
+      <img
+        src="../assets/speaking/speaking_8.png"
         alt="speaking"
         class="speaking__speakingImage"
       />

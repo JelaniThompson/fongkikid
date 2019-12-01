@@ -114,6 +114,41 @@
         class="hiding__hidingImage"
       />
     </div>
+    <div class="hiding__section hiding__6">
+      <img
+        src="../assets/hiding/new_dimensions/Hiding_6.png"
+        alt="hiding"
+        class="hiding__hidingImage"
+      />
+    </div>
+    <div class="hiding__section hiding__7">
+      <img
+        src="../assets/hiding/new_dimensions/Hiding_7.png"
+        alt="hiding"
+        class="hiding__hidingImage"
+      />
+    </div>
+    <div class="hiding__section hiding__8">
+      <img
+        src="../assets/hiding/new_dimensions/Hiding_8.png"
+        alt="hiding"
+        class="hiding__hidingImage"
+      />
+    </div>
+    <div class="hiding__section hiding__9">
+      <img
+        src="../assets/hiding/new_dimensions/Hiding_9.png"
+        alt="hiding"
+        class="hiding__hidingImage"
+      />
+    </div>
+    <div class="hiding__section hiding__12">
+      <img
+        src="../assets/hiding/new_dimensions/Hiding_12.png"
+        alt="hiding"
+        class="hiding__hidingImage"
+      />
+    </div>
   </div>
 </template>
 

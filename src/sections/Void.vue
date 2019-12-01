@@ -3,7 +3,7 @@
     <Header />
     <div class="void__section void__void">
       <img
-        src="../assets/void/new_dimensions/fillthevoid.png"
+        src="../assets/void/new_dimensions/void.png"
         alt="void"
         class="void__voidImage"
       />
@@ -22,23 +22,51 @@
         </div>
       </div>
     </div>
+    <div class="void__section void__1">
+      <img
+        src="../assets/void/new_dimensions/void_1.png"
+        alt="void"
+        class="void__voidImage"
+      />
+    </div>
+    <div class="void__section void__2">
+      <img
+        src="../assets/void/new_dimensions/void_2.png"
+        alt="void"
+        class="void__voidImage"
+      />
+    </div>
     <div class="void__section void__3">
       <img
-        src="../assets/void/new_dimensions/fillthevoid_3.png"
+        src="../assets/void/new_dimensions/void_3.png"
         alt="void"
         class="void__voidImage"
       />
     </div>
     <div class="void__section void__4">
       <img
-        src="../assets/void/new_dimensions/fillthevoid_4.png"
+        src="../assets/void/new_dimensions/void_4.png"
         alt="void"
         class="void__voidImage"
       />
     </div>
     <div class="void__section void__5">
       <img
-        src="../assets/void/new_dimensions/fillthevoid_5.png"
+        src="../assets/void/new_dimensions/void_5.png"
+        alt="void"
+        class="void__voidImage"
+      />
+    </div>
+    <div class="void__section void__6">
+      <img
+        src="../assets/void/new_dimensions/void_6.png"
+        alt="void"
+        class="void__voidImage"
+      />
+    </div>
+    <div class="void__section void__7">
+      <img
+        src="../assets/void/new_dimensions/void_7.png"
         alt="void"
         class="void__voidImage"
       />

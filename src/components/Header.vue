@@ -19,16 +19,18 @@
                 width: '100%'
               }"
             >
-              <a
-                class="header__dropdownItem"
-                :href="routes[index]"
-                target="__blank"
+              <a class="header__dropdownItem" :href="routes[index]"
                 >{{ item }}
               </a>
             </div>
           </div>
         </div>
       </div>
+      <a href="/speaking">
+        <div class="header__cv header__tab" target="__blank">
+          SPEAKING
+        </div>
+      </a>
       <a
         href="https://drive.google.com/file/d/1QW_DE9fJOWQsW7wr7JlzdtqD_F4wRs1a/view"
         target="__blank"
@@ -37,10 +39,6 @@
           CV
         </div>
       </a>
-      <div class="header__cv header__tab" target="__blank">
-        SPEAKING
-      </div>
-      <!-- <div class="header__contact header__tab">CONTACT</div> -->
     </div>
   </div>
 </template>

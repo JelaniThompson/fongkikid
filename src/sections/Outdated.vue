@@ -3,7 +3,7 @@
     <Header />
     <div class="outdated__outdated outdated__section outdated__image">
       <img
-        src="../assets/outdated/Outdated-18.png"
+        src="../assets/outdated/outdated.png"
         alt="outdated"
         class="outdated__outdatedImage"
       />
@@ -14,8 +14,8 @@
         <div class="outdated__borderTwo">
           <iframe
             src="https://player.vimeo.com/video/299457576"
-            width="640"
-            height="360"
+            width="840"
+            height="560"
             frameborder="0"
             allow="autoplay; fullscreen"
             allowfullscreen
@@ -29,40 +29,73 @@
         </p>
       </div>
     </div>
-
-    <!-- Digital Diaspora -->
-    <div class="outdated__digital-diaspora outdated__section">
+    <div class="outdated__outdated outdated__section outdated__image">
       <img
-        src="../assets/outdated/outdated-digitaldiaspora.png"
-        alt="digital-diaspora"
+        src="../assets/outdated/outdated_2.png"
+        alt="outdated"
         class="outdated__outdatedImage"
       />
     </div>
-
-    <!-- Research -->
-    <div class="outdated__research outdated__section">
+    <div class="outdated__outdated outdated__section outdated__image">
       <img
-        src="../assets/outdated/outdated-research.png"
-        alt="research"
-        id="outdated__researchImage"
+        src="../assets/outdated/outdated_3.png"
+        alt="outdated"
         class="outdated__outdatedImage"
       />
     </div>
-    <!-- Language -->
-    <div class="outdated__language outdated__section">
+    <div class="outdated__outdated outdated__section outdated__image">
       <img
-        src="../assets/outdated/outdated-language.png"
-        alt="research"
-        id="outdated__researchImage"
+        src="../assets/outdated/outdated_4.png"
+        alt="outdated"
         class="outdated__outdatedImage"
       />
     </div>
-    <!-- Exhibition -->
-    <div class="outdated__exhibition outdated__section">
+    <div class="outdated__outdated outdated__section outdated__image">
       <img
-        src="../assets/outdated/outdated-exhibition.png"
-        alt="research"
-        id="outdated__researchImage"
+        src="../assets/outdated/outdated_5.png"
+        alt="outdated"
+        class="outdated__outdatedImage"
+      />
+    </div>
+    <div class="outdated__outdated outdated__section outdated__image">
+      <img
+        src="../assets/outdated/outdated_6.png"
+        alt="outdated"
+        class="outdated__outdatedImage"
+      />
+    </div>
+    <div class="outdated__outdated outdated__section outdated__image">
+      <img
+        src="../assets/outdated/outdated_7.png"
+        alt="outdated"
+        class="outdated__outdatedImage"
+      />
+    </div>
+    <div class="outdated__outdated outdated__section outdated__image">
+      <img
+        src="../assets/outdated/outdated_8.png"
+        alt="outdated"
+        class="outdated__outdatedImage"
+      />
+    </div>
+    <div class="outdated__outdated outdated__section outdated__image">
+      <img
+        src="../assets/outdated/outdated_9.png"
+        alt="outdated"
+        class="outdated__outdatedImage"
+      />
+    </div>
+    <div class="outdated__outdated outdated__section outdated__image">
+      <img
+        src="../assets/outdated/outdated_10.png"
+        alt="outdated"
+        class="outdated__outdatedImage"
+      />
+    </div>
+    <div class="outdated__outdated outdated__section outdated__image">
+      <img
+        src="../assets/outdated/outdated_11.png"
+        alt="outdated"
         class="outdated__outdatedImage"
       />
     </div>
@@ -110,6 +143,7 @@ export default {
   &__vidContainer {
     align-self: center;
     justify-content: center;
+    margin-top: 8%;
     // height: 100vh;
     z-index: 98;
     width: 100vw;
@@ -287,11 +321,12 @@ export default {
   &__video {
     justify-content: center;
     position: relative;
+    margin-top: 8%;
   }
 
   &__borderTwo {
     background-color: #7efc8d;
-    width: 55%;
+    width: 67%;
     height: 90%;
     z-index: -1;
     margin: 0 auto;
