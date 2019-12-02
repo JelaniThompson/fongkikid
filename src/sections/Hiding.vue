@@ -168,6 +168,7 @@ export default {
         prevNextButtons: true,
         pageDots: false,
         resize: true,
+        lazyLoad: true,
         fullscreen: true,
         imagesLoaded: true,
         contain: true
