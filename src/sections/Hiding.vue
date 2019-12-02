@@ -16,70 +16,70 @@
       >
         <div class="carousel-cell">
           <img
-            src="../assets/zine/1.jpg"
+            src="../assets/zine/Hiding_1.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/2.jpg"
+            src="../assets/zine/Hiding_2.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/3.jpg"
+            src="../assets/zine/Hiding_3.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/4.jpg"
+            src="../assets/zine/Hiding_4.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/5.jpg"
+            src="../assets/zine/Hiding_5.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/6.jpg"
+            src="../assets/zine/Hiding_6.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/7.jpg"
+            src="../assets/zine/Hiding_7.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/8.jpg"
+            src="../assets/zine/Hiding_8.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/9.jpg"
+            src="../assets/zine/Hiding_9.png"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/10.jpg"
+            src="../assets/zine/Hiding_10.png"
             alt="orange tree"
             class="cell-image"
           />
@@ -137,14 +137,14 @@
     </div>
     <div class="hiding__section hiding__9">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_9.jpg"
+        src="../assets/zine/Hiding_9.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__12">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_12.jpg"
+        src="../assets/hiding/new_dimensions/Hiding_12.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
