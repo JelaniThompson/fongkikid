@@ -53,7 +53,7 @@ export default {
         "Outdated(오래된)",
         "ARCHITECTURE IS MY EX-BOYFRIEND",
         "FILL THE VOID",
-        "In Hiding (숨다)"
+        "Hiding (숨다)"
       ],
       colours: ["#7efc8d", "#81ecf2", "#ff64f0", "#6d66ff"],
       routes: ["/outdated", "/arch", "/void", "/hiding"]
