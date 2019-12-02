@@ -3,7 +3,7 @@
     <Header />
     <div class="hiding__section hiding__hiding">
       <img
-        src="../assets/hiding/new_dimensions/Hiding.png"
+        src="../assets/hiding/new_dimensions/Hiding.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
@@ -16,70 +16,70 @@
       >
         <div class="carousel-cell">
           <img
-            src="../assets/zine/1.png"
+            src="../assets/zine/1.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/2.png"
+            src="../assets/zine/2.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/3.png"
+            src="../assets/zine/3.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/4.png"
+            src="../assets/zine/4.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/5.png"
+            src="../assets/zine/5.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/6.png"
+            src="../assets/zine/6.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/7.png"
+            src="../assets/zine/7.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/8.png"
+            src="../assets/zine/8.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/9.png"
+            src="../assets/zine/9.jpg"
             alt="orange tree"
             class="cell-image"
           />
         </div>
         <div class="carousel-cell">
           <img
-            src="../assets/zine/10.png"
+            src="../assets/zine/10.jpg"
             alt="orange tree"
             class="cell-image"
           />
@@ -88,63 +88,63 @@
     </div>
     <div class="hiding__section hiding__hiding">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_2.png"
+        src="../assets/hiding/new_dimensions/Hiding_2.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__3">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_3.png"
+        src="../assets/hiding/new_dimensions/Hiding_3.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__4">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_4.png"
+        src="../assets/hiding/new_dimensions/Hiding_4.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__5">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_5.png"
+        src="../assets/hiding/new_dimensions/Hiding_5.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__6">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_6.png"
+        src="../assets/hiding/new_dimensions/Hiding_6.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__7">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_7.png"
+        src="../assets/hiding/new_dimensions/Hiding_7.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__8">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_8.png"
+        src="../assets/hiding/new_dimensions/Hiding_8.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__9">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_9.png"
+        src="../assets/hiding/new_dimensions/Hiding_9.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__12">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_12.png"
+        src="../assets/hiding/new_dimensions/Hiding_12.jpg"
         alt="hiding"
         class="hiding__hidingImage"
       />
