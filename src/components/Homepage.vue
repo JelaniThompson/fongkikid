@@ -12,6 +12,24 @@
         and offline spaces in order to further my understanding of my South
         Korean roots.
       </p>
+      <a
+        href="https://www.instagram.com/fongkikid/"
+        target="__blank"
+        class="homepage__imageLink"
+      >
+        <font-awesome-icon
+          :icon="['fab', 'instagram']"
+          class="homepage__instagram"
+        />
+      </a>
+
+      <a
+        href="https://vimeo.com/fongkikid"
+        target="__blank"
+        class="homepage__imageLink"
+      >
+        <font-awesome-icon :icon="['fab', 'vimeo']" class="homepage__vimeo" />
+      </a>
     </div>
     <div class="homepage__vidContainer">
       <div class="homepage__borderTwo">
@@ -82,6 +100,26 @@ export default {
     font-family: "Helvetica Neue";
     font-size: 24px;
   }
+
+  &__instagram {
+    bottom: 0;
+    align-self: flex-end;
+    margin-bottom: 3%;
+    font-size: 2em;
+    // margin-right: 5%;
+    margin-left: -5%;
+    position: absolute;
+  }
+  &__vimeo {
+    bottom: 0;
+    align-self: flex-end;
+    margin-bottom: 3%;
+    margin-left: -1%;
+    font-size: 2em;
+    // margin-left: 1%;
+    position: absolute;
+  }
+
   &__vidContainer {
     // align-self: center;
     justify-content: center;

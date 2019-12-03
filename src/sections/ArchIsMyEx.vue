@@ -6,6 +6,7 @@
         src="../assets/arch/new_dimensions/arch.png"
         alt="Architecture is my Ex-BF"
         class="arch__archImage"
+        id="archImageOne"
       />
     </div>
     <div class="arch__section arch__video">
@@ -79,6 +80,9 @@ export default {
 </script>
 
 <style lang="scss">
+#archImageOne {
+  margin-top: 8%;
+}
 .arch {
   &__section {
     height: 100vh;
@@ -99,9 +103,9 @@ export default {
   // }
   &__archImage {
     object-fit: cover;
-    max-width: 100%;
+    // max-width: 100%;
     pointer-events: none;
-    height: auto;
+    // height: auto;
     margin-top: 12%;
     pointer-events: none;
   }
