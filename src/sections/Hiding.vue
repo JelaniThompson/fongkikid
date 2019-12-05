@@ -88,67 +88,67 @@
     </div>
     <div class="hiding__section hiding__hiding">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_2.jpg"
+        src="../assets/hiding/below_slider/hiding_1.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__3">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_3.jpg"
+        src="../assets/hiding/below_slider/hiding_3.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__4">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_4.jpg"
+        src="../assets/hiding/below_slider/hiding_4.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__5">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_5.jpg"
+        src="../assets/hiding/below_slider/hiding_5.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__6">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_6.jpg"
+        src="../assets/hiding/below_slider/hiding_6.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__7">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_7.jpg"
+        src="../assets/hiding/below_slider/hiding_7.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__8">
       <img
-        src="../assets/hiding/new_dimensions/Hiding_8.jpg"
+        src="../assets/hiding/below_slider/hiding_8.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
     <div class="hiding__section hiding__9">
       <img
-        src="../assets/zine/Hiding_9.png"
+        src="../assets/hiding/below_slider/hiding_9.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
     </div>
-    <div class="hiding__section hiding__12">
+    <!-- <div class="hiding__section hiding__12">
       <img
         src="../assets/hiding/new_dimensions/Hiding_12.png"
         alt="hiding"
         class="hiding__hidingImage"
       />
-    </div>
+    </div> -->
   </div>
 </template>
 
