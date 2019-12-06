@@ -17,8 +17,14 @@ export default {
 </script>
 
 <style lang="less">
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./assets/fonts/HelveticaNeue.ttf");
+  font-family: "Helvetica Neue Bold";
+  src: url("./assets/fonts/Helvetica Neu Bold.ttf");
+}
 #app {
-  font-family: "Avenir", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
