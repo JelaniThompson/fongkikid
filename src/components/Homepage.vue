@@ -12,24 +12,27 @@
         and offline spaces in order to further my understanding of my South
         Korean roots.
       </p>
-      <a
-        href="https://www.instagram.com/fongkikid/"
-        target="__blank"
-        class="homepage__imageLink"
-      >
-        <font-awesome-icon
-          :icon="['fab', 'instagram']"
-          class="homepage__instagram"
-        />
-      </a>
 
-      <a
-        href="https://vimeo.com/fongkikid"
-        target="__blank"
-        class="homepage__imageLink"
-      >
-        <font-awesome-icon :icon="['fab', 'vimeo']" class="homepage__vimeo" />
-      </a>
+      <div class="homepage__socialIconContainer">
+        <a
+          href="https://www.instagram.com/fongkikid/"
+          target="__blank"
+          class="homepage__imageLink"
+        >
+          <font-awesome-icon
+            :icon="['fab', 'instagram']"
+            class="homepage__instagram"
+          />
+        </a>
+
+        <a
+          href="https://vimeo.com/fongkikid"
+          target="__blank"
+          class="homepage__imageLink"
+        >
+          <font-awesome-icon :icon="['fab', 'vimeo']" class="homepage__vimeo" />
+        </a>
+      </div>
     </div>
     <div class="homepage__vidContainer">
       <div class="homepage__borderTwo">
@@ -94,30 +97,45 @@ export default {
   &__paragraph {
     margin-left: 2.5%;
     margin-top: 12.5%;
-    max-width: 30%;
+    max-width: 40%;
+    width: 53%;
+    line-height: 130%;
+    height: 40%;
     text-align: left;
     font-weight: bold;
     font-family: "Helvetica Neue Bold";
     font-size: 24px;
   }
 
-  &__instagram {
-    bottom: 0;
+  &__socialIconContainer {
+    position: relative;
     align-self: flex-end;
-    margin-bottom: 3%;
+    justify-self: flex-end;
+    margin-right: 2%;
+    margin-bottom: 11%;
+    width: 20%;
+    // margin-right: 12.15%;
+  }
+
+  &__instagram {
+    // bottom: 0;
+    align-self: flex-end;
+    // margin-bottom: 3%;
     font-size: 2em;
     // margin-right: 5%;
     margin-left: -5%;
-    position: absolute;
+    // position: relative;
+    padding-right: 14%;
   }
   &__vimeo {
-    bottom: 0;
+    // bottom: 0;
     align-self: flex-end;
-    margin-bottom: 3%;
+    // margin-bottom: 3%;
     margin-left: -1%;
     font-size: 2em;
     // margin-left: 1%;
-    position: absolute;
+    // position: relative;
+    // margin-top: 10%;
   }
 
   &__vidContainer {
