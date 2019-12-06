@@ -20,6 +20,8 @@ export default {
 @font-face {
   font-family: "Helvetica Neue";
   src: url("./assets/fonts/HelveticaNeue.ttf");
+}
+@font-face {
   font-family: "Helvetica Neue Bold";
   src: url("./assets/fonts/Helvetica Neu Bold.ttf");
 }
