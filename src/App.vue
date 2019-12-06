@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <!-- <Homepage /> -->
+    <!-- <imageCompressor :done="getFiles" :scale="scale" :quality="quality"> -->
+    <!-- </imageCompressor> -->
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 // import Homepage from "./components/Homepage.vue";
+// import imageCompressor from "vue-image-compressor";
 
 export default {
   name: "app"
   // components: {
-  //   Homepage
+  //   // imageCompressor
   // }
 };
 </script>
