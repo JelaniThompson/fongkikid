@@ -81,7 +81,7 @@ export default {
 <style lang="scss">
 .homepage {
   overflow-y: hidden;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue Bold";
   &__main-section {
     display: flex;
     margin-top: 8%;
@@ -97,7 +97,7 @@ export default {
     max-width: 30%;
     text-align: left;
     font-weight: bold;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue Bold";
     font-size: 24px;
   }
 

@@ -18,7 +18,7 @@ export default {
 
 <style lang="less">
 @font-face {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue Bold";
   src: url("./assets/fonts/HelveticaNeue.ttf");
 }
 @font-face {
@@ -26,7 +26,7 @@ export default {
   src: url("./assets/fonts/Helvetica Neu Bold.ttf");
 }
 #app {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue Bold", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
