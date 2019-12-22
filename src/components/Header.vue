@@ -32,7 +32,7 @@
         </div>
       </a>
       <a
-        href="https://drive.google.com/file/d/1QW_DE9fJOWQsW7wr7JlzdtqD_F4wRs1a/view"
+        href="https://drive.google.com/open?id=15VyfQop3RYYWQJilalOGZihRoSZWiMTP"
         target="__blank"
       >
         <div class="header__cv header__tab" target="__blank">
